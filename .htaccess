@@ -96,7 +96,7 @@ RewriteRule ^ - [L]
 
 #For BLOG pages.
 RewriteRule ^impact/?$ blog.php [L]
-RewriteRule ^impact/([a-zA-Z0-9-=]+)$ blog_detail.php?slug=$1 [L]
+RewriteRule ^blog/([a-zA-Z0-9-=]+)$ blog_detail.php?slug=$1 [L]
 
 #For Program/Package pages.
 RewriteRule ^program/?$ package.php [L]
